@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Hanselman.Portable.Helpers;assembly=Hanselman.Portable"
+            x:Class="Hanselman.Portable.Views.AboutPage"
+             Title="Jaime Hernández">
+  <ScrollView>
+    <StackLayout Orientation="Vertical" Spacing="10" Padding="10">
+      <Image Aspect="AspectFill" Source="scott.png" Margin="-10,-10,-10,0"/>
+ 
+
+        <Label Margin="0,25"
+               Text=" Mi nombre es Jaime Hernández un analista de sistemas, radicado en Santiago de Chile, actualmente trabajo desarrollando aplicaciones ASP.net con c#, investigo sobre nuevas tecnologias, escribo blog y pruebo codigos fuentes para compartir en social-github. Mis objetivos son investigar nuevas tecnologías documentarlas y compartirlas, mejorar en habilidades técnicas de programación y habilidades blandas de trabajo en grupo Soft Skill."
+               LineBreakMode="WordWrap"/>
+
+            <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand"
+                     Spacing="10">
+
+                <Image x:Name="twitter" Source="twitter.png"/>
+                <Image x:Name="facebook" Source="facebook.png"/>
+                <Image x:Name="instagram" Source="instagram.png"/>
+            </StackLayout>
+
+        </StackLayout>
+
+  </ScrollView>
+</ContentPage>
